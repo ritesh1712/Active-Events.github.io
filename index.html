@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Active Event</title>
+</head>
+
+<body>
+
+  <div class="shadow">
+    <nav class="flex bg-white justify-between">
+      <div class="logo w-40 p-4">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <div id="ham"
+        class="text-purple-600 bg-white right-0 top-4 h-8 w-12 flex justify-center items-center rounded-l-2xl	fixed z-20 xl:hidden">
+        <i class="material-icons cursor-pointer" id="menu" style="font-size:2rem">menu</i>
+        <i class="material-icons cursor-pointer" id="clos" style="font-size:2rem">close</i>
+      </div>
+      <div class="w-9/12 xl:hidden z-10">
+        <ul id="menuitem"
+          class="flex font-bold flex-col bg-white w-full inset-0 fixed justify-center items-center leading-10 translate-x-full ">
+          <li class="hover:text-purple-600"><a href="#">The Challenge</a></li>
+          <li class="hover:text-purple-600"><a href="#">Leaderboards</a></li>
+          <li class="hover:text-purple-600"><a href="#">Sponsor Someone</a></li>
+          <li class="hover:text-purple-600"><a href="#">FAQs</a></li>
+          <li class="hover:text-purple-600"><a href="#">Login</a></li>
+          <li
+            class="border-2 border-amber-500  rounded-3xl hover:bg-amber-500 font-medium m-4 w-4/5 flex justify-center">
+            <a href="#">DONATE</a>
+          </li>
+          <li
+            class="bg-purple-500 rounded-3xl hover:text-neutral-50 hover:bg-purple-900 font-medium w-4/5 flex justify-center">
+            <a href="#">SIGN UP</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w-4/5 hidden xl:block mr-16 menu1">
+        <ul class="flex w-full space-x-8 justify-end items-center font-bold">
+          <li class="hover:text-purple-600"><a href="#">The Challenge</a></li>
+          <li class="hover:text-purple-600"><a href="#">Leaderboards</a></li>
+          <li class="hover:text-purple-600"><a href="#">Sponsor Someone</a></li>
+          <li class="hover:text-purple-600"><a href="#">FAQs</a></li>
+          <li class="hover:text-purple-600"><a href="#">Login</a></li>
+          <li class="border-2 border-amber-500  rounded-3xl hover:bg-amber-500 font-medium my-4 w-4/5 flex xl:w-auto xl:px-2 xl:py-1
+justify-center"><a href="#">DONATE</a></li>
+          <li
+            class="bg-purple-500 rounded-3xl hover:text-neutral-50 hover:bg-purple-900 font-medium w-4/5 flex xl:w-auto justify-center xl:px-2 xl:py-1 border-2 border-purple-500 hover:border-purple-900">
+            <a href="#">SIGN UP</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    <div class="content text-white w-full mt-28 sm:w-2/3 sm:float-left xl:w-1/2">
+      <h1 class="text-5xl w-4/5 font-bold m-auto xl:text-6xl">Challenge yourself to do the Feb 50!</h1>
+      <p class="text-xl w-4/5 font-bold m-auto my-4">Join us this February to combat bigotry and eradicate hate by
+        committing to do doing 50 mins of exercise everyday.
+      </p>
+      <div class="buttons flex flex-col	sm:flex-row w-3/4 m-auto 
+   sm:m-0 sm:w-full md:flex-col md:w-1/2 lg:pl-16">
+        <button
+          class="font-bold  bg-purple-400 py-2 px-3	rounded-3xl text-black hover:text-white hover:bg-purple-500 m-4  ">TAKE
+          THE CHALLENGE</button>
+        <button class="font-bold  border-2 py-2 px-3 rounded-3xl hover:bg-white hover:text-violet-900  m-4  ">SPONSOR A
+          FRIEND</button>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div
+      class="sec-1 bg-purple-100 p-4  flex flex-col justify-between font-bold md:flex-row md:px-16 md:justify-around">
+      <div
+        class="bg-white h-24 flex flex-col justify-center items-center -top-12 relative md:w-96 md:h-32 md:mx-8 my-3">
+        <h1 class="text-4xl">1,334</h1>
+        <p class="text-xl">Fundraisers</p>
+      </div>
+      <div
+        class="bg-white h-24 flex flex-col justify-center items-center -top-12 relative md:w-96 md:h-32 md:mx-8 my-3">
+        <h1 class="text-4xl">$15,980</h1>
+        <p class="text-xl">Raised so far</p>
+      </div>
+      <div
+        class="bg-white h-24 flex flex-col justify-center items-center -top-12 relative md:w-96 md:h-32 md:mx-8 my-3">
+        <h1 class="text-4xl">884 hours</h1>
+        <p class="text-xl">completed so far</p>
+      </div>
+    </div>
+
+
+
+    <div class=" truncate ">
+      <div class="bg-purple-100 h-32  flex animation">
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">a day ago</p>
+          </div>
+        </div>
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">8 days ago</p>
+          </div>
+        </div>
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">12 days ago</p>
+          </div>
+        </div>
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">19 day ago</p>
+          </div>
+        </div>
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">a month ago</p>
+          </div>
+        </div>
+
+
+
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">a day ago</p>
+          </div>
+        </div>
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">8 days ago</p>
+          </div>
+        </div>
+
+        <div class="bg-purple-100 m-1 w-1/3 flex justify-center items-center">
+          <span class="bg-gray-400 text-xl rounded-full p-4">$30</span>
+          <div class="m-4">
+            <h1> <span class="font-bold"> Caleb Castaneda </span> donated</h1>
+            <p class="italic">12 days ago</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="h-screen flex flex-col md:flex-row md:h-96 lg:h-screen">
+    <div class="left flex justify-center items-center pt-8 md:w-3/4 md:self-start">
+      <img src="images/sec-2.jpg" class="h-60 lg:h-full" alt="player image">
+    </div>
+    <div class="right flex flex-col justify-center items-center lg:w-1/2 m-auto md:relative md:-top-14 lg:top-0">
+      <h1 class="w-4/5 m-auto text-3xl font-bold my-2 md:self-start">Challenge yourself to go further for the Active
+        Event</h1>
+      <p class="w-4/5 m-auto text-xl">
+        State what you're asking supporters to do, and that they'll be part of an incredible community taking the
+        challenge for your cause.</p>
+      <button
+        class="font-bold text-xl bg-purple-400 py-2 px-3	rounded-3xl text-black hover:text-white hover:bg-purple-500 m-4  md:self-start md:ml-16">TAKE
+        THE CHALLENGE</button>
+    </div>
+  </div>
+
+
+  <div class="bg-purple-900  flex flex-col items-center p-8 mt-8 justify-center lg:mt-40">
+    <h1 class="text-white text-2xl font-bold md:ml-28 md:text-5xl">How it works</h1>
+    <div class="flex flex-col items-center md:flex-row n md:h-96">
+      <div class=" flex justify-center items-center flex-col  mt-8">
+        <img src="images/sec-3-item-1.jpg" class="cursor-pointer" alt="">
+        <h1 class=" text-center text-xl lg:text-4xl font-bold text-purple-300">Pick your challenge</h1>
+        <p class="text-center	font-bold text-sm lg:text-base text-white">Accept the challenge and register yourself
+          today. Get your very own fundraising page and start earning some awesome rewards.</p>
+      </div>
+      <div class="  flex justify-center items-center flex-col mt-8">
+        <img src="images/sec-3-item-2.jpg" class="cursor-pointer" alt="">
+        <h1 class=" text-center text-xl lg:text-4xl font-bold text-purple-300">Track your progress</h1>
+        <p class="text-center	font-bold text-sm  lg:text-base text-white">Connect your account to Strava or manual track
+          how close you are to reaching your goal.</p>
+      </div>
+      <div class="  flex justify-center items-center flex-col mt-8">
+        <img src="images/sec-3-item-3.jpg" class="cursor-pointer" alt="">
+        <h1 class=" text-center text-xl lg:text-4xl font-bold text-purple-300">Make a difference</h1>
+        <p class="text-center	font-bold text-sm  lg:text-base text-white">Get your family and friends to sponsor your
+          challenge and raise money for the cause.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-4 flex justify-center items-center md:h-screen  relative md:justify-start">
+    <div
+      class="content h-full w-4/5 bg-white flex justify-center items-center flex-col p-4 my-8 md:h-2/3 md:w-2/3 lg:w-1/2 lg:h-4/5 md:my-0 md:ml-12 md:p-12">
+      <h1 class="text-3xl font-bold md:text-5xl">Call time on hate this February!</h1>
+      <p class="text-lg my-3 md:text-2xl">It's a good idea to highlight the impact of your campaign; your supporters are
+        your best ambassadors, so you want them to know why they're doing this!</p>
+      <p class="text-lg md:text-2xl">Talk a little about what your organisation does, and why you're running the
+        campaign. Do you have a particular goal you're raising money towards?</p>
+      <button
+        class="border-2 border-amber-500  rounded-3xl hover:bg-amber-500 font-medium m-4 w-4/5 flex justify-center uppercase px-2 py-2 md:w-1/2 ">
+        learn more</button>
+    </div>
+  </div>
+  <div class="sec-5 flex flex-col p-4">
+    <div class="hading flex justify-center items-center flex-col p-4">
+      <h1 class="font-bold text-3xl text-center">How far will you go?</h1>
+      <p class="font-semibold text-lg text-center">Choose a goal that you feel comfortable with and get going!</p>
+    </div>
+    <div class="img flex justify-center items-center flex-col p-4 md:flex-row">
+      <div class=" rounded-xl	item flex justify-center items-center md:w-80 md:h-52 m-4 bg-black truncate">
+        <img class="md:w-96 scale-100 duration-300 ease-in-out hover:scale-105 cursor-pointer opacity-95"
+          src="images/sec-5-item-1.jpg" alt="">
+        <div class="absolute flex justify-center items-center flex-col font-bold md:text-2xl text-xl text-white">
+          <div>15 kms</div>
+          <div>Short on time
+          </div>
+        </div>
+      </div>
+      <div class=" rounded-xl	item flex justify-center items-center md:w-80 md:h-52 m-4 bg-black truncate">
+        <img class="md:w-96 scale-100 duration-300 ease-in-out hover:scale-105 cursor-pointer opacity-95"
+          src="images/sec-5-item-2.jpg" alt="">
+        <div class="absolute flex justify-center items-center flex-col font-bold md:text-2xl text-xl text-white">
+          <div>15 kms</div>
+          <div>Short on time
+          </div>
+        </div>
+      </div>
+      <div class=" rounded-xl	item flex justify-center items-center md:w-80 h-52 m-4 bg-black truncate">
+        <img class="md:w-96 scale-100 duration-300 ease-in-out hover:scale-105 cursor-pointer opacity-95"
+          src="images/sec-5-item-3.jpg" alt="">
+        <div class="absolute flex justify-center items-center flex-col font-bold md:text-2xl text-xl text-white">
+          <div>15 kms</div>
+          <div>Short on time
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="btn flex justify-center items-center">
+      <button
+        class="font-bold md:text-xl md:py-4 md:px-5 bg-purple-400 py-2 px-3	rounded-3xl text-black hover:text-white hover:bg-purple-500 m-4  ">TAKE
+        THE CHALLENGE</button>
+    </div>
+  </div>
+
+  <div class="sec-6 flex items-center flex-col  bg-purple-100 py-2">
+    <div class="top-hading flex justify-center items-center font-bold text-2xl">Our Top Fundraisers</div>
+    <div class="content flex items-center flex-col w-11/12 md:flex-row">
+      <div class="itemscantenar-1 w-full bg-white m-4">
+        <h1 class="font-bold text-2xl flex justify-center items-center flex-col">Top Individuals</h1>
+
+
+        <div id="sec1-item1">
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center items-center">
+              <img class="rounded-full h-full w-4/6" src="images/sec-611.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Adelle Maddox</div>
+                <div class="text-base font-bold text-purple-600 italic">$490</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-full bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center items-center">
+              <img class="rounded-full h-full w-4/6" src="images/sec-612.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Roscoe Ortega</div>
+                <div class="text-base font-bold text-purple-600 italic">$371</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-3/4 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <div class="rounded-full flex h-16 w-32 justify-center items-center">
+              <img class="rounded-full h-full w-1/2" src="images/sec-613.gif" alt="">
+            </div>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Stantey Hudson</div>
+                <div class="text-base font-bold text-purple-600 italic">$314</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-4/5 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center items-center">
+              <img class="rounded-full h-full w-4/6" src="images/sec-614.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Joel Gibson</div>
+                <div class="text-base font-bold text-purple-600 italic">$214</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-2/3 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-615.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Marshall Hughes</div>
+                <div class="text-base font-bold text-purple-600 italic">$200</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/2 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="sec1-item2" class="hidden">
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center items-center">
+              <img class="rounded-full h-full w-4/6" src="images/sec-616.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Savannah Amos</div>
+                <div class="text-base font-bold text-purple-600 italic">$133</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-2/3 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-6-com.svg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Buckminster Burns</div>
+                <div class="text-base font-bold text-purple-600 italic">$100</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/2 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <div class="rounded-full flex h-16 w-32 justify-center items-center">
+              <img class="rounded-full h-full w-1/2" src="images/sec-618.jpg" alt="">
+            </div>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Alexandre Huffman</div>
+                <div class="text-base font-bold text-purple-600 italic">$70</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-2/5 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 items-center">
+              <img class="rounded-full h-full w-4/6" src="images/sec-619.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Jayme Lung</div>
+                <div class="text-base font-bold text-purple-600 italic">$69</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/4 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-6-com.svg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Malik Holman</div>
+                <div class="text-base font-bold text-purple-600 italic">$50</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/5 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn float-right border-t-2 border-l-2 border-black border-opacity-30 cursor-pointer">
+          <i class="material-icons opacity-30" id="sec1-btn1">chevron_left</i>
+          <i class="material-icons" id="sec1-btn2">chevron_right</i>
+        </div>
+      </div>
+
+      <div class="itemscantenar-2 w-full p-2 bg-white m-4">
+        <h1 class="font-bold text-2xl flex justify-center items-center flex-col">Top Teams</h1>
+
+
+        <div id="sec2-item1">
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center items-center  h-20 w-28">
+              <img class="rounded-full h-full w-3/4" src="images/sec-621.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center lg:w-72 w-44">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Best Foot Forward</div>
+                <div class="text-base font-bold text-purple-600 italic">$950</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/2 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-622.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Soul Surfers</div>
+                <div class="text-base font-bold text-purple-600 italic">$786</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/2 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <div class="rounded-full flex h-16 w-32 justify-center items-center">
+              <img class="rounded-full h-full w-1/2" src="images/sec-623.gif" alt="">
+            </div>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Skate Agansit</div>
+                <div class="text-base font-bold text-purple-600 italic">$658</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-2/5 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-624.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Pogo Stars</div>
+                <div class="text-base font-bold text-purple-600 italic">$540</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/5 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-625.jpg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">The Social Climber</div>
+                <div class="text-base font-bold text-purple-600 italic">$490</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/4 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div id="sec2-item2" class="hidden">
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center items-center  h-20 w-28">
+              <img class="rounded-full h-full w-3/4" src="images/sec-626.gif" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center  lg:w-72 w-44">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">They See Me Rolling</div>
+                <div class="text-base font-bold text-purple-600 italic">$314</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-1/4 bg-purple-700 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-6-com.svg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">John Smith's Team</div>
+                <div class="text-base font-bold text-purple-600 italic">$0</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-0 bg-purple-300 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 h-20 items-center">
+              <img class="rounded-full h-full w-2/3" src="images/sec-6-com.svg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">gjjhdhhchd hchhq Team</div>
+                <div class="text-base font-bold text-purple-600 italic">$0</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-0 bg-purple-300 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-white flex  w-full p-2 cursor-pointer">
+            <span class="rounded-full flex justify-center w-32 items-center">
+              <img class="rounded-full h-full w-4/6" src="images/sec-6-com.svg" alt="">
+            </span>
+            <div class="flex flex-col items-center justify-center w-1/2">
+              <div class="flex justify-between w-full items-center">
+                <div class="text-base font-bold">Adrian Whitney's Team</div>
+                <div class="text-base font-bold text-purple-600 italic">$0</div>
+              </div>
+              <div class="w-full bg-purple-300 h-4 rounded-3xl">
+                <div class="h-full w-0 bg-purple-300 rounded-3xl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn float-right border-t-2 border-l-2 border-black border-opacity-30 cursor-pointer">
+          <i class="material-icons opacity-30" id="sec2-btn1">chevron_left</i>
+          <i class="material-icons" id="sec2-btn2">chevron_right</i>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="bt md:w-96 flex justify-center items-center">
+      <button
+        class="border-2 border-amber-500  rounded-3xl hover:bg-amber-500 font-medium m-4 w-4/5 flex justify-center uppercase px-2 py-2 md:w-full">
+        see full Leaderboards</button>
+    </div>
+  </div>
+
+  <div class="sec7 flex items-center flex-col p-4 bg-gray-100">
+    <div class="heading flex justify-center items-center flex-col md:w-1/2  md:m-16">
+      <h1 class="text-4xl text-center font-bold">Fundraising made...fun!</h1>
+      <p class="text-xl text-center font-semibold">Take the challenge, and we'll back you with guides on how to
+        fundraise, tips to stay motivated, and hit your fundraising goals.</p>
+    </div>
+    <div class="content flex flex-col md:flex-row">
+      <div class="p-2 m-4 md:p-6 flex justify-center items-center flex-col" style="background-color: #ffd99d">
+        <span class="md:relative md:-top-16">
+          <i class="material-icons bg-white p-4 md:p-6 rounded-full text-purple-500" style="font-size:3rem">beenhere</i>
+        </span>
+        <h1 class="font-bold text-2xl text-center">Welcome pack</h1>
+        <p class="text-xl text-center">We'll send you an awesome welcome pack, filled with everything you need to get
+          going.</p>
+      </div>
+
+      <div class="p-2 m-4 md:p-6 flex justify-center items-center flex-col" style="background-color: #ffd99d">
+        <span class="md:relative md:-top-16">
+          <i class="material-icons bg-white p-4 md:p-6 rounded-full text-purple-500" style="font-size:3rem">stars</i>
+        </span>
+        <h1 class="font-bold text-2xl text-center">Awesome prizes</h1>
+        <p class="text-xl text-center">We'll reward you with the best prizes, keeping you motivated on your way to
+          victory.</p>
+      </div>
+
+      <div class="p-2 m-4 md:p-6 flex justify-center items-center flex-col" style="background-color: #ffd99d">
+        <span class="md:relative md:-top-16">
+          <i class="material-icons bg-white p-4 md:p-6 rounded-full text-purple-500"
+            style="font-size:3rem">insert_emoticon</i>
+        </span>
+        <h1 class="font-bold text-2xl text-center">Have an impact</h1>
+        <p class="text-xl text-center">We rely on your support. Fundraise to help those most vulnerable, and get fit at
+          the same time!</p>
+      </div>
+
+      <div class="p-2 m-4 md:p-6 flex justify-center items-center flex-col" style="background-color: #ffd99d">
+        <span class="md:relative md:-top-16">
+          <i class="material-icons bg-white p-4 md:p-6 rounded-full text-purple-500"
+            style="font-size:3rem">group_add</i>
+        </span class="md:relative md:-top-14">
+        <h1 class="font-bold text-2xl text-center">Bring your mates</h1>
+        <p class="text-xl text-center">Fundraising is more fun together! Form a team, and challenge yourself to go
+          further with mates.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-8 flex items-center p-2 flex-col">
+<h1 class="flex justify-center items-center text-purple-400 italic font-bold m-8">Our Sponsors</h1>
+<div class="flex justify-between items-center flex-col font-bold text-2xl opacity-40 lg:flex-row m-8">
+<div class="p-2"><span class="p-1 m-2 bg-black opacity-40 rounded-full">11</span>Sponsors Logo</div>
+<div class="p-2"><span class="p-1 m-2 bg-black opacity-40 rounded-full">11</span>Sponsors Logo</div>
+<div class="p-2"><span class="p-1 m-2 bg-black opacity-40 rounded-full">11</span>Sponsors Logo</div>
+<div class="p-2"><span class="p-1 m-2 bg-black opacity-40 rounded-full">11</span>Sponsors Logo</div>
+
+</div>
+  </div>
+  <footer class="bg-purple-900 p-4 flex justify-between flex-col md:flex-row">
+<div class="logo p-2 flex justify-center items-center flex-col m-2">
+<img src="images/logo.svg" class="w-72 text-white m-8" alt="logo">
+<p class="text-white text-2xl">©️Active Event</p>
+</div>
+<div class=" flex justify-center items-center flex-col">
+  <div class="flex items-center justify-between p-2">
+    <img src="images/facebook.jpg" class="w-12 rounded-full hover:opacity-80 cursor-pointer m-2" alt="">
+    <img src="images/twitter.jpg" class="w-12 rounded-full hover:opacity-80 cursor-pointer m-2" alt="">
+    <img src="images/linkedin.jpg" class="w-12 rounded-full hover:opacity-80 cursor-pointer m-2" alt="">
+    <img src="images/instagram.jpg" class="w-12 rounded-full hover:opacity-80 cursor-pointer m-2" alt="">
+  </div>
+  <div class="text-center text-xl text-white">
+    <span class="cursor-pointer hover:underline">Contact us</span>-<span class="cursor-pointer hover:underline">Privacy</span>-<span class="cursor-pointer hover:underline">Terms & Conditions</span>
+  </div>
+</div>
+<div class="flex justify-center items-center flex-col m-2">
+<div class="flex justify-between items-center flex-col md:flex-row">
+<button class="py-2 px-4 rounded-3xl border-2 border-white text-white font-bold hover:bg-white hover:text-purple-900 m-2">
+  DONATE
+</button> 
+<button class="py-2 px-4 rounded-3xl border-2 border-purple-500 bg-purple-500 text-black font-bold hover:bg-purple-600 hover:text-white hover:border-purple-600 m-2">
+  SIGN UP
+</button>
+</div>
+
+<span class="font-bold text-white text-xl p-2 hover:cursor-pointer hover:underline">Powered by Raised</span>
+</div>
+
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
+<!-- npx tailwindcss -i tailwind.css -o style.css --watch -->
